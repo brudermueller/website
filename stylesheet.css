@@ -84,6 +84,12 @@ a {
   font-size: 14px
 }
 
+i {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+  font-style: italic;
+}
+
 strong {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 14px;
@@ -128,4 +134,21 @@ name {
 
 span.highlight {
   background-color: #ffffd0;
+}
+
+/* Style for the horizontal lines */
+hr {
+  border: 0;
+  height: 1px;
+  background-color: #333;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
